@@ -1,0 +1,102 @@
+/* Header */
+
+@media (max-width:1300px) and (min-width:768px){
+    nav{
+        justify-content: space-between;
+    }
+    nav .column-3 ul li:nth-child(1) ,nav .column-3 ul li:nth-child(2){
+        display: none;
+    }
+    nav .column-2{
+        display: none;
+    }
+    .hamburger .column-2{
+        display:block ;
+    }
+    nav .column-1{
+        width: 50%;
+    }
+    nav .column-2{
+        width: 50%;
+    }
+    section{
+        flex-direction: column;
+        justify-content: flex-start;
+        row-gap: 50px;
+    }
+    section .column-1 h1 , section .column-1 p{
+        width: 100%;
+    }
+    section .column-1 , section .column-2 , section .column-3{
+        width: 100%;
+    }
+    section .column-1{
+        order: 1;
+    }
+    section .column-2{
+        order: 3;
+    }
+    section .column-3{
+        order: 2;
+        margin: 0px !important;
+    }
+    .soical-container{
+        justify-content: center;
+        gap: 20px;
+        width: 90%;
+    }
+}
+@media (max-width:767px){
+
+    nav{
+        justify-content: space-between;
+    }
+    nav .column-2{
+        display: none;
+    }
+    nav .column-3 ul li:nth-child(1) ,nav .column-3 ul li:nth-child(2){
+        display: none;
+    }
+    .hamburger .column-2{
+        display:block ;
+    }
+    nav .column-1{
+        width: 80%;
+    }
+    nav .column-3{
+        width: 20%;
+    }
+    section{
+        flex-direction: column;
+        justify-content: flex-start;
+        row-gap: 50px;
+    }
+    section .column-1 h1 , section .column-1 p{
+        width: 100%;
+    }
+    section .column-1 h1{
+        font-size: 80px;
+    }
+    section .column-1 , section .column-2 , section .column-3{
+        width: 100%;
+    }
+    section .column-1{
+        order: 1;
+    }
+    section .column-2{
+        order: 3;
+    }
+    section .column-3{
+        order: 2;
+        margin: 0px !important;
+    }
+    .soical-container{
+        justify-content: center;
+        gap: 20px;
+        width: 90%;
+    }
+    section .column-2 .circal {
+        height: 300px;
+        width: 300px;
+    }
+}
