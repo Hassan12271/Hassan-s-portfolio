@@ -13,15 +13,18 @@
 .sidenav a:nth-child(2){
     margin-top: 50px !important;
 }
-.sidenav a {
+.sidenav a , .soical-icon{
     padding: 8px 8px 8px 32px !important;
     text-decoration: none;
     font-size: 25px;
     color: #aaa;
-    display: block;
+    display: block;        
     transition: 0.3s;
 }
+.soical-icon ul li a{
+    padding: 0px !important;
 
+}
 .sidenav a:hover {
     color: #fff;
 }
@@ -34,6 +37,10 @@
     margin-left: 50px !important;
     margin-top: 30px !important;
     margin-bottom: 30px !important;
+}
+.soical-icon ul {
+    display: flex;
+    gap: 10px;
 }
 
 @media screen and (max-height: 450px) {
