@@ -235,3 +235,98 @@ section .column-3 ul li i{
     width: 120px;
     object-fit: contain;
 }
+.bottom-container{
+    padding-block: 100px !important;
+}
+.bottom-container section{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-container section .column-1{
+    width: 40%;
+}
+.bottom-container section .column-2{
+    width: 60%;
+    padding-inline-start: 40px !important;
+}
+.right-side-top h2{
+    font-size: 40px;
+    line-height: 45px;
+}
+.right-side-top p{
+    font-size: 18px !important;
+    line-height: 25px !important;
+    width: 80% !important;
+}
+.right-side-bottom{
+    display: flex;
+    row-gap: 20px ;
+    margin-top: 20px !important;
+}
+.right-side-bottom div{
+    width: 50% !important;
+    flex-direction: column;
+    margin: 0px !important;
+    gap: 0px;
+}
+.right-side-bottom div:nth-child(2){
+    padding-inline-start: 0px !important;
+}
+.right-side-bottom div h4{
+    font-size: 30px;
+    color: #eaad1f;
+    line-height: 35px;
+}
+.right-side-bottom div h6{
+    font-size: 16px;
+    color: #aaa;
+}
+.bottom-container section .column-2 .main-projects-container{
+    display: flex ;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 50px;
+}
+.bottom-container section .column-2 .main-projects-container .projects-column-1,
+.bottom-container section .column-2 .main-projects-container .projects-column-2,
+.bottom-container section .column-2 .main-projects-container .projects-column-3{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.bottom-container section .column-2 .main-projects-container .projects-column-1 img,
+.bottom-container section .column-2 .main-projects-container .projects-column-2 img,
+.bottom-container section .column-2 .main-projects-container .projects-column-3 img{
+    width: 100% !important;
+    height: 100px !important;
+    position: relative !important;
+    object-fit: cover;
+    object-position: center;
+    background-color: #fff;
+    top: 0px !important;
+}
+.bottom-container section .column-2 .main-projects-container .projects-column-3 img{
+    object-fit: contain;
+
+}
+.main-projects-container h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.project-image {
+    width: 30%;
+}
+.project-tittle {
+    width: 50%;
+}
+.project-tittle h6{
+    color: #aaa;
+}
+.projects-link {
+    width: 10%;
+}
+.projects-link a i{
+    color: #eaad1f;
+    font-size: 20px;
+}
